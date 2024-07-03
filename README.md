@@ -2,6 +2,8 @@
 
 ## Combining Remote Sensing FIM (RS FIM) and Terrain-based FIM for improving flood inundation extent and depth mapping
 This project aims to delineate flood extension using satellite imagery and estimate Depth of Flow (DoF) using the relationships between Fsp (Flood Source Pixels) and Fpp (FloodPlain Pixels) generated through the [FLDPLN model](https://kuscholarworks.ku.edu/handle/1808/5354).
+Files are separated into two folders. Verdigris_v6 contains the original files and notebooks developed for initial case with libraries built with FLDPLN v6. Verdigris_v8 contains the files for the updated libraries and modifications performed by Dr. Li's group at KU with FLDPLN v8. Please contact Dr. Li (lixi@ku.edu) for access to input data (.bil files and libraries).
+These folders are required in order to run the notebooks.
 
 ## Installing
 FLDPLN model libraries should be installed in advance in order to run the notebooks generated for the study case. Please take a look to [build_fldpln_python_env.md](https://github.com/NWC-CUAHSI-Summer-Institute/FLDSensing/blob/main/build_fldpln_python_env.md) within this repo.
@@ -15,5 +17,5 @@ Two notebooks have been generated. [Tiling_Process.ipynb](https://github.com/NWC
 The second notebook [FLDPLN_FIM.ipynb](https://github.com/NWC-CUAHSI-Summer-Institute/FLDSensing/blob/main/FLDPLN_FIM.ipynb) handles the input data and generate the flood inundation map given the flood edge pixels from RS FIM and FLDPLN relationships. This notebook contain the details by steps in order to perform the inverse modeling FIM. Modified funtions from original FLDPLN source code are contained in this notebook in roder to not interfer with the base code as some modifications should be done to perform the analysis backwards to estimate Fsp Dof.
 
 ## Acknowledgments
-We would like to thank Dr. Xingong Li ans his team at Kansas University for the preprocessing of the input files for Verdigris river study case, and Dr. Sagy Cohen for this guidance during this project. Special mention to Jack and Son for their efforts in Remote Sensing app generation for this project.
+We would like to thank Dr. Xingong Li ans his team at University of Kansas for the preprocessing of the input files for Verdigris river study case, and Dr. Sagy Cohen for this guidance during this project. Special mention to Jack and Son for their efforts in Remote Sensing app generation for this project.
 
