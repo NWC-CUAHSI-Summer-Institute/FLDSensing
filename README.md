@@ -1,4 +1,4 @@
-#FLDSensing: Remote Sensing Flood Inundation Mapping with FLDPLN
+# FLDSensing: Remote Sensing Flood Inundation Mapping with FLDPLN
 
 This project aims to  delineate flood extent and depth using remote sensing-derived clean edge pixels to estimate Depth of Flow (DOF) (water stage) using the relationships between FSP (Flood Source Pixels) and FPP (FloodPlain Pixels) generated through the [FLDPLN model](https://kuscholarworks.ku.edu/handle/1808/5354).
 
