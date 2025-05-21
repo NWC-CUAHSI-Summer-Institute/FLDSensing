@@ -1,6 +1,5 @@
-# FLDSensing
+#FLDSensing: Remote Sensing Flood Inundation Mapping with FLDPLN
 
-## Combining Remote Sensing FIM (RS FIM) and Terrain-based FIM for improving flood inundation extent and depth mapping
 This project aims to  delineate flood extent and depth using remote sensing-derived clean edge pixels to estimate Depth of Flow (DOF) (water stage) using the relationships between FSP (Flood Source Pixels) and FPP (FloodPlain Pixels) generated through the [FLDPLN model](https://kuscholarworks.ku.edu/handle/1808/5354).
 
 This repository contains three files: the FLDSensing Jupyter notebook, the conda environment YAML file, and a Tile Size and Spatial reference JSON file. To use this script, FLDSensing requires a FLDPLN inundation library to already be created for a specific area. To download the entire FLDPLN library for the state of Kansas, visit the [Kansas Applied Remote Sensing website](https://kars.ku.edu/pages/kansas-inundation-mapping). FLDSensing also requires a Digital Elevation Model (DEM) associated with the created FLDPLN library to snap and align clean edge pixels to the FLDPLN library. Contact Dr. Xingong Li (lixi@ku.edu) for access to the .bil files
