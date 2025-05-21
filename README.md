@@ -19,5 +19,7 @@ FLDSensing Jupyter notebook requires minimal user interaction. Once the librarie
 ## Acknowledgments
 FLDSensing project developers: Jackson Edwards, Son Do, and Francisco Gomez. 
 
-We would like to thank Dr. Xingong Li and Dr. Sagy Cohen for their guidance, supervision, and support during this project. We would also like to thank Jude Kastens and David Weiss for their support and continued development of the FLDPLN model and library. 
+We would like to thank Dr. Xingong Li and Dr. Sagy Cohen for their guidance, supervision, and support during this project. We would also like to thank Dr. Jude Kastens and David Weiss for their support and continued development of the FLDPLN model and library. 
+
+[SI Report: FLDSensing (Pages: 48-60)](https://www.cuahsi.org/uploads/pages/doc/202407_Summer_Institute_Final_Report_v2.0.pdf)
 
